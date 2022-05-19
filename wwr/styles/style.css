@@ -67,47 +67,48 @@ content {
   }
 
   nav a {
-    color: #ddbea9
+    color: #ddbea9;
+    text-decoration: none;
   }
 
   nav a:hover {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   .home-title {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   h4 {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   .book, .join {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   .book:hover, .join:hover {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   .msg h2 {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   .msg p {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   footer h3 {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   footer a {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   footer a:hover {
-    color: #ddbea9
+    color: #ddbea9;
   }
 
   .icon {
@@ -116,10 +117,6 @@ content {
 
   #hero-img {
     width: 100%;
-  }
-
-  nav a {
-    text-decoration: none;
   }
 
   .book, .join {
