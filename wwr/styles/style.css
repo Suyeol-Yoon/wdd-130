@@ -1,132 +1,179 @@
-content {
-  max-width: 1600px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&display=swap');
 
-content {
-    margin: 0 auto;
+  content {
+  max-width: 1600px;
+  margin: 0 auto;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   nav {
     text-align: center;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   a {
     text-align: center;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   #hero-msg h1 {
+    color: black;
     text-align: center;
+    font-family: 'Patrick Hand';
   }
 
   #hero-msg h4 {
     text-align: center;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   .button-box {
     text-align: center;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   main section {
     text-align: center;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   #background {
     height: 725px;
+    background-color: white;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   body {
     background-color: #ddbea9;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
   }
 
   header {
     background-color: #cb997e;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   nav a:hover {
     background-color: #cb997e;
+    color: #ddbea9;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   .book, .join {
     background-color: #cb997e;
+    color: #ddbea9;
+    text-decoration: none;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
 
   .book:hover, .join:hover {
+    color: #ddbea9;
     background-color: #cb997e;
-  }
-
-  #background {
-    background-color: white;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   .msg {
     background-color: #ddbea9;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
   }
 
   footer {
     background-color: #cb997e;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
   }
 
   nav a {
     color: #ddbea9;
     text-decoration: none;
-  }
-
-  nav a:hover {
-    color: #ddbea9;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+    padding: 35px;
   }
 
   .home-title {
     color: #ddbea9;
+    font-family: 'Patrick Hand';
+    font-size: 2em;
+    margin-top: 10px;
   }
 
   h4 {
-    color: #ddbea9;
-  }
-
-  .book, .join {
-    color: #ddbea9;
-  }
-
-  .book:hover, .join:hover {
-    color: #ddbea9;
+    color: black;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   .msg h2 {
-    color: #ddbea9;
+    color: black;
+    font-family: 'Patrick Hand';
   }
 
   .msg p {
-    color: #ddbea9;
+    color: black;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
   }
 
   footer h3 {
     color: #ddbea9;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   footer a {
     color: #ddbea9;
+    text-decoration: none;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   footer a:hover {
     color: #ddbea9;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
   }
 
   .icon {
     width: 80px;
+    padding-top: 10px;
   }
 
   #hero-img {
     width: 100%;
   }
 
-  .book, .join {
-    text-decoration: none;
-  }
-
-  footer a {
-    text-decoration: none;
-  }
-
   footer h3 a:hover {
     text-decoration: underline;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  #logo_link {
+    padding-top: 5px;
+  }
+
+  footer .social img {
+    padding-top: 15px;
+  }
+
+  .river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+  }
+
+  .card-img {
+    border: 10px solid black;
+  }
+
+  main section img {
+    box-sizing: border-box;
   }
