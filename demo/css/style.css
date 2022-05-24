@@ -7,21 +7,26 @@ body {
 }
 
 #title-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 450px;
-    flex-basis: 450px;
+    display: grid;
+    grid-template-columns: 90px 1fr 60px;
+    grid-template-rows: 280px auto auto 60px;
+    grid-template-areas: 
+        "empty1 empty empty1"
+        "empty2 h1 empty3"
+        "empty4 h2 empty5"
+        "empty6 empty6 empty6";
     border-bottom: 1px solid #000
 }
 
 #title-card h1 {
-    padding: 0 60px;
+    grid-area: h1;
+    text-align: right;
+    font-weight: bold;
 }
 
 #title-card h2 {
-    padding: 0 60px 60px 60px;
+    grid-area: h2;
+    text-align: right;
 }
 
 .card-holder .card {
