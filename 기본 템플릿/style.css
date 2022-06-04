@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    padding: 20px;
+    background-color: coral;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
