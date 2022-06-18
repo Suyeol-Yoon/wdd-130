@@ -176,6 +176,8 @@
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    padding-left: 200px;
+    z-index: 1;
   }
 
   footer .social img {
@@ -221,7 +223,7 @@
     margin-top: 100px;
   }
 
-  home-grid {
+  .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
@@ -253,6 +255,30 @@
     opacity: .6;
     transform: scale(1.1);
 }
+
+
+/* Q&A css style */
+
+/* .subpage-grid {
+  display: grid;
+} */
+
+.third-jpg {
+  height: 500px;
+  width: 500px;
+}
+
+.forth-jpg {
+
+  height: 500px;
+  width: 500px;
+}
+
+.third-jpg, .forth-jpg, .first-jpg {
+  margin: 50px 0;
+}
+
+
 
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
