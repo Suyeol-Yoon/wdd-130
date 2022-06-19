@@ -40,7 +40,7 @@
 
   #background {
     height: 725px;
-    background-color: white;
+    background-color: #ddbea9;
     font-family: 'Poppins', 'Helvetica', sans-serif;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -269,7 +269,6 @@
 }
 
 .forth-jpg {
-
   height: 500px;
   width: 500px;
 }
