@@ -30,6 +30,7 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  /* background-color: #457B9D; */
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
@@ -178,3 +179,7 @@ nav a:hover {
 footer .social img {
   padding-top: 15px;
 }
+
+/* footer {
+  background-color: #457B9D;
+} */
